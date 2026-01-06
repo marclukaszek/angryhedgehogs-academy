@@ -1,0 +1,29 @@
+/* src/index.css — neutralny reset pod normalną stronę */
+
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: transparent; /* tło robisz w App.css */
+  color: inherit;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
