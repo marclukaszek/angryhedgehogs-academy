@@ -3,7 +3,7 @@ import "./App.css";
 
 // Jeśli masz logo jako plik, wrzuć je np. do: src/assets/logo.png
 // i podmień ścieżkę poniżej:
-const logoSrc = "/logo.png"; // na razie placeholder (public/logo.png)
+const logoSrc = "logo.png"; // na razie placeholder (public/logo.png)
 
 const LOGO_TEXT = "Angry Hedgehogs Academy";
 
